@@ -592,7 +592,7 @@ function Library:Window()
 
                 Button.Name = "Button"
                 Button.Parent = Section
-                Button.BackgroundColor3 = Color3.fromRGB(70, 85, 165)
+                Button.BackgroundColor3 = Color3.fromRGB(39, 127, 168)
                 Button.Position = UDim2.new(0.0306122452, 0, 0.239263803, 0)
                 Button.Size = UDim2.new(0, 373, 0, 42)
             
@@ -613,7 +613,7 @@ function Library:Window()
             
                 ButtonTrigger.Name = "ButtonTrigger"
                 ButtonTrigger.Parent = Button
-                ButtonTrigger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                ButtonTrigger.BackgroundColor3 = Color3.fromRGB(39, 127, 168)
                 ButtonTrigger.BackgroundTransparency = 1.000
                 ButtonTrigger.Size = UDim2.new(0, 373, 0, 42)
                 ButtonTrigger.Font = Enum.Font.SourceSans
@@ -869,7 +869,7 @@ function Library:Window()
                 TextboxValue.Size = UDim2.new(0, 300, 0, 30)
                 TextboxValue.Font = Enum.Font.GothamMedium
                 TextboxValue.Text = texname
-                TextboxValue.TextColor3 = Color3.fromRGB(39, 127, 168)
+                TextboxValue.TextColor3 = Color3.fromRGB(255,255,255)
                 TextboxValue.TextSize = 14.000
                 TextboxValue.TextWrapped = true
                 TextboxValue.TextXAlignment = Enum.TextXAlignment.Left
@@ -896,7 +896,7 @@ function Library:Window()
                 TextboxTyper.PlaceholderColor3 = Color3.fromRGB(108, 133, 255)
                 TextboxTyper.PlaceholderText = placeholder or "..."
                 TextboxTyper.Text = ""
-                TextboxTyper.TextColor3 = Color3.fromRGB(230, 230, 230)
+                TextboxTyper.TextColor3 = Color3.fromRGB(39, 127, 168)
                 TextboxTyper.TextScaled = true
                 TextboxTyper.TextSize = 15.000
                 TextboxTyper.TextWrapped = true
