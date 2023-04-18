@@ -40,12 +40,12 @@ function Library:Window()
     local NotificationHolder = Instance.new("Frame")
     local NotificationHolderCorner = Instance.new("UICorner")
 
-    BBB.Name = "BBB"
-    BBB.Parent = CoreGui
-    BBB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    Azure.Name = "Azure"
+    Azure.Parent = CoreGui
+    Azure.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     MainFrame.Name = "MainFrame"
-    MainFrame.Parent = BBB
+    MainFrame.Parent = Azure
     MainFrame.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
     MainFrame.BorderSizePixel = 0
     MainFrame.Position = UDim2.new(0.199287176, 0, 0.313598394, 0)
