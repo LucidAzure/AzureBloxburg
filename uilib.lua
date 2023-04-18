@@ -22,7 +22,7 @@ local Library = {}
 
 function Library:Window()
     local http_request = request or (syn and syn.request) or (http and http.request)
-    local Azure = Instance.new("ScreenGui")
+    local BBB = Instance.new("ScreenGui")
     local MainFrame = Instance.new("Frame")
     local LeftFrame = Instance.new("Frame")
     local LeftFrameCorner = Instance.new("UICorner")
@@ -40,12 +40,12 @@ function Library:Window()
     local NotificationHolder = Instance.new("Frame")
     local NotificationHolderCorner = Instance.new("UICorner")
 
-    Azure.Name = "Azure"
-    Azure.Parent = CoreGui
-    Azure.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    BBB.Name = "Azure"
+    BBB.Parent = CoreGui
+    BBB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     MainFrame.Name = "MainFrame"
-    MainFrame.Parent = Azure
+    MainFrame.Parent = BBB
     MainFrame.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
     MainFrame.BorderSizePixel = 0
     MainFrame.Position = UDim2.new(0.199287176, 0, 0.313598394, 0)
