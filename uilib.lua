@@ -16,13 +16,13 @@ function Tween(obj, speed, array, additional)
     tween.Completed:Wait()
 end
 
-if game.CoreGui:FindFirstChild("BBB") then game.CoreGui.BBB:Destroy() end
+if game.CoreGui:FindFirstChild("Azure") then game.CoreGui.Azure:Destroy() end
 
 local Library = {}
 
 function Library:Window()
     local http_request = request or (syn and syn.request) or (http and http.request)
-    local BBB = Instance.new("ScreenGui")
+    local Azure = Instance.new("ScreenGui")
     local MainFrame = Instance.new("Frame")
     local LeftFrame = Instance.new("Frame")
     local LeftFrameCorner = Instance.new("UICorner")
@@ -1604,6 +1604,4 @@ function Library:Window()
     end
     return Window
 end
-local win = Library:Window()
-local autofarm = win:Tab("Auto Farm")
 return Library, Library.settings
