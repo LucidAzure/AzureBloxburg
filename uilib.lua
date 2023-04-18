@@ -1604,4 +1604,6 @@ function Library:Window()
     end
     return Window
 end
+local win = Library:Window()
+local autofarm = win:Tab("Auto Farm")
 return Library, Library.settings
