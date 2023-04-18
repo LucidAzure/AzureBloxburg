@@ -465,7 +465,7 @@ function Library:Window()
 
         Tab.Name = "Tab"
         Tab.Parent = TabHolder
-        Tab.BackgroundColor3 = Color3.fromRGB(50, 60, 110)
+        Tab.BackgroundColor3 = Color3.fromRGB(39, 127, 168)
         Tab.Position = UDim2.new(0.0370370373, 0, 0, 0)
         Tab.Size = UDim2.new(0, 125, 0, 37)
 
