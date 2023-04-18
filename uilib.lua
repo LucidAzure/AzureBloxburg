@@ -602,7 +602,7 @@ function Library:Window()
             
                 ButtonText.Name = "ButtonText"
                 ButtonText.Parent = Button
-                ButtonText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                ButtonText.BackgroundColor3 = Color3.fromRGB(39, 127, 168)
                 ButtonText.BackgroundTransparency = 1.000
                 ButtonText.Position = UDim2.new(0.0965147465, 0, 0.142857149, 0)
                 ButtonText.Size = UDim2.new(0, 300, 0, 30)
@@ -714,7 +714,7 @@ function Library:Window()
                         task.spawn(function()
                             Tween(ToggleInner, 0.2, {Position = UDim2.new(0.629999982, 0, 0.150000006, 0)})
                         end)
-                        Tween(ToggleOut, 0.2, {BackgroundColor3 = Color3.fromRGB(70, 85, 165)})
+                        Tween(ToggleOut, 0.2, {BackgroundColor3 = Color3.fromRGB(39, 127, 168)})
                     end
                     if not toggled then
                         task.spawn(function()
@@ -869,7 +869,7 @@ function Library:Window()
                 TextboxValue.Size = UDim2.new(0, 300, 0, 30)
                 TextboxValue.Font = Enum.Font.GothamMedium
                 TextboxValue.Text = texname
-                TextboxValue.TextColor3 = Color3.fromRGB(235, 235, 235)
+                TextboxValue.TextColor3 = Color3.fromRGB(39, 127, 168)
                 TextboxValue.TextSize = 14.000
                 TextboxValue.TextWrapped = true
                 TextboxValue.TextXAlignment = Enum.TextXAlignment.Left
