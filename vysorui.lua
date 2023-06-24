@@ -79,7 +79,7 @@ function Library:Window()
     Title.Position = UDim2.new(0.0199999996, 0, 0, 0)
     Title.Size = UDim2.new(0, 140, 0, 33)
     Title.Font = Enum.Font.SourceSansBold
-    Title.Text = "Azure Bloxburg"
+    Title.Text = "Vysor Bloxburg"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 17.000
     Title.TextStrokeTransparency = 2.000
